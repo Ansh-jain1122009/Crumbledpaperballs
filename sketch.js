@@ -28,8 +28,8 @@ function setup() {
 	}
 	//Create the Bodies Here.
 	 ground = new Ground(width/2,390,width,20);
- 	 wall = new Ground(600,380,10,30);
-	 wall2 = new Ground(650,380,10,30);	 
+ 	 wall = new Ground(500,350,10,60);
+	 wall2 = new Ground(650,350,10,60);	 
 
   	ball=Bodies.circle(100,200,20,ball_options);  
 	World.add(world,ball);
